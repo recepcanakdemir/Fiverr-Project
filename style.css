@@ -69,8 +69,11 @@ body{
 /* Part 1 */
 .container{
     display: grid;
-    width: 100%;
+    width: 50%;
     margin: auto;
+}
+.breakfast{
+    text-align: center;
 }
 .head{
     text-align: center;
