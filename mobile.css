@@ -1,4 +1,4 @@
-.instruction > li >p,
+/* .instruction > li >p,
 .eating-plan > ul li,
 .tips,
 .tips li,
@@ -10,13 +10,16 @@
 .shape p
 {
     text-align: center;
-}
-ul{
+} */
+/* ul{
     list-style: none;
-}
+} */
 .phase{
     color: #333;
 }
 .breakfast{
     text-align: center;
+}
+.container{
+    max-width: 1100px;
 }
