@@ -1,0 +1,22 @@
+.instruction > li >p,
+.eating-plan > ul li,
+.tips,
+.tips li,
+.breakfast-list,
+.breakfast-list li,
+.advice > p,
+.walking li,
+.walking,
+.shape p
+{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.phase{
+    color: #333;
+}
+.breakfast{
+    text-align: center;
+}

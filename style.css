@@ -1,0 +1,341 @@
+:root{
+    --plain:#fa8989;
+    --plain-2:#f5a8a8;
+    --plain-3:#f79a9a;
+
+    --blue:#3ba4be;
+    --blue-2:#5eabdf;
+    --blue-3:#72baea;
+    --title-1:rgb(2, 88, 175);
+
+    --green:#65AF54;
+    --green-2:#98be8d;
+    --green-3:#385831;
+    --green-4:#85b879;
+    --bg-front:#F0823E;
+    --bg-background:#FCE5D8;
+    --bg-background-dark:#fad7c3;
+    
+}
+html{
+    height: 800%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: #ffffff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.navbar-list li{
+    text-decoration: none;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.navbar-list li:hover{
+    background-color: #afafaf;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+body{
+ /* background: rgb(175,175,175); */
+ /* background: linear-gradient(198deg, rgba(175,175,175,1) 0%, rgba(240,227,201,1) 47%, rgba(236,158,158,1) 100%, rgba(237,236,245,0.7960434173669468) ); */
+ background-repeat: no-repeat;
+ height: 100%;
+
+ margin-top: 80px;
+}
+/* Part 1 */
+.container{
+    display: grid;
+    width: 100%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.head-1{
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-bottom: 1px #333 solid;
+}
+.head h1{
+    padding: 1rem;
+}
+.head-1 h1{
+    padding: 1rem;
+}
+
+.vertical{
+   
+    width: 700px;
+    margin: auto;
+    padding:1.5rem;
+    padding-top: 1rem;
+    color: rgb(66, 58, 58);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: var(--plain-2);
+    
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: var(--plain-2);
+    font-size: 1.33rem;
+    margin-top: 1rem;
+    color: #333;
+}
+.total-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: var(--blue-3);
+    font-size: 1.33rem;
+    margin-top: 1rem;
+    color: #333;
+}
+.total-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: var(--green-2);
+    font-size: 1.33rem;
+    margin-top: 1rem;
+    color: #333;
+}
+.odd{
+    background-color: var(--plain-3);
+    
+}
+.odd-1{
+    background-color: var(--blue-2);
+}
+.odd-2{
+    background-color: var(--green-2);
+}
+.even-2{
+    background-color: var(--green-4);
+}
+.even-1{
+    background-color: var(--blue-3);
+}
+.bf{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color:var(--bg-front);
+}
+.bf-1{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color:var(--title-1);
+}
+.bf-2{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color:var(--green-3);
+}
+
+.bs{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.block .week{
+    padding-right: 6rem;
+}
+.right-side{
+    display: flex;
+    justify-content: space-around;
+} 
+.right-side >div{
+    margin-left: 5rem;
+}
+
+
+.sub-container{
+    background-color:var(--plain);
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 520px;
+    margin-top: 1rem;
+
+}
+
+.sub-container-1{
+    background-color:var(--blue);
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 580px;
+    margin-top: 1rem;
+}
+.sub-container-2{
+    background-color:var(--green);
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 750px;
+    margin-top: 1rem;
+}
+
+.sub-container > h1,
+.sub-container-1 > h1,
+.sub-container-2 > h1{
+    padding-top: 1rem;
+}
+.title{
+    color: #ffdede;
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+}
+.total-2>.right-side>.dose{
+    font-size: 1rem;
+}
+
+/* Part 2 */
+
+.instruction > li >p{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.eating-plan > ul li{
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.tips{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.tips li{
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.breakfast-list{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+   
+    line-height: 2rem;
+}
+.breakfast-list li{
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: normal;
+}
+.breakfast-list li > p{
+    padding: 1rem;
+    font-weight:bold;
+    text-indent:0px;
+}
+.note{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 2rem;
+    font-style: italic;
+    border: 1px #333 solid;
+}
+.first-image{
+    width: 250px;
+    height: 250px;
+}   
+.last-img{
+ 
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.advice > p{
+    text-align: left;
+    font-size: 1.4rem;
+    text-indent: 10px;
+    line-height: 2rem;
+} 
+.walking li{
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: normal;
+}   
+.walking{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.walking li p{
+    font-weight: normal;
+}
+.walking li span{
+    font-weight: bold;
+}
+
+.shape p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: left;
+}
+
+table,td,th{
+    border: 1px solid #333;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+    width: 200px;
+}
